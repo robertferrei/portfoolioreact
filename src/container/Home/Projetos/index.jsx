@@ -5,7 +5,7 @@ import Imagem from "../../../assets/teclado.png";
 import Imagem2 from "../../../assets/img2.png";
 import { useState, useEffect } from "react";
 import TypeIt from "typeit-react";
-import Cardss from "../../../components/Cards";
+ 
  
  
  
@@ -44,12 +44,12 @@ function Projetos() {
       </Texto>
       <ul>
           {repositories.map((repository) => {
-            return (
-              <li>
+           
+            
                 <h3>{repository.name}</h3>
               
-              </li>
-            );
+               
+           
           })}
         </ul>
       <Container>

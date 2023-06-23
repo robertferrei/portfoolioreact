@@ -4,7 +4,7 @@ import Logoo from "../../assets/img.png";
 import TypeIt from "typeit-react";
  
 import Typeit from "../../components/Typeit";
-import Cardss from "../../components/Cards";
+ 
  
  
 function Home() {
