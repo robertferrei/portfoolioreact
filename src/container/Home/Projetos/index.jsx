@@ -1,6 +1,6 @@
 import SLider from "../../../components/slider";
 import { Container } from "../styles";
-import { Texto } from "./styles";
+import { Main, Texto } from "./styles";
 import Imagem from "../../../assets/teclado.png";
 import Imagem2 from "../../../assets/img2.png";
 import { useState, useEffect } from "react";
@@ -13,11 +13,7 @@ import TypeIt from "typeit-react";
 function Projetos() {
   const [repositories, setRepositories] = useState([]);
 
-  useEffect(() => {
-    fetch("https://api.github.com/users/robertferrei/repos")
-      .then((Response) => Response.json())
-      .then((data) => setRepositories(data));
-  }, []);
+   
 
   return (
     <>
@@ -44,20 +40,25 @@ function Projetos() {
       </Texto>
       <ul>
           {repositories.map((repository) => {
-           
-            
+            return (
+              <li>
                 <h3>{repository.name}</h3>
               
-               
-           
+              </li>
+            );
           })}
         </ul>
-      <Container>
-        
+ 
         <SLider> </SLider>
+      
+       <Main>
+
+          <h1>...</h1>
+        </Main>
+        
          
        
-      </Container>
+     
     </>
   );
 }

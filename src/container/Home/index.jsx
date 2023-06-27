@@ -1,15 +1,28 @@
-import { Container, Div, Imagem, Objetivo, Texto } from "./styles";
+import {
+  Container,
+  Div,
+  Drop,
+  Imagem,
+  ImagemSecond,
+  Objetivo,
+  Principal,
+  Texto,
+} from "./styles";
 import Logo from "../../assets/developer.png";
 import Logoo from "../../assets/img.png";
 import TypeIt from "typeit-react";
- 
+
 import Typeit from "../../components/Typeit";
- 
- 
- 
+
+import Dropdown from "../../components/Dropdown";
+import { motion } from "framer-motion";
+
 function Home() {
   return (
-    <>
+    <Principal>
+      <Drop>
+      <Dropdown />
+      </Drop>
       <Container>
         <Texto>
           <h2>
@@ -36,7 +49,21 @@ function Home() {
         </Texto>
 
         <Imagem>
-          <img src={Logo} alt="" />
+          <motion.img
+            className="motion"
+            src={Logo}
+            alt=""
+            initial={{ y: 0 }}
+            animate={{
+              y: [0, 20, 0], // Define os valores de y para a animação
+            }}
+            transition={{
+              repeat: Infinity,
+              duration: 7,
+              ease: "linear",
+            }}
+            style={{}}
+          />
         </Imagem>
       </Container>
 
@@ -63,13 +90,26 @@ function Home() {
             diversos desafios.
           </p>
         </Texto>
-        <img src={Logoo} alt="" />
+
+        <ImagemSecond>
+          <motion.img
+            className="motion"
+            src={Logoo}
+            alt=""
+            initial={{ y: 0 }}
+            animate={{
+              y: [0, 20, 0], // Define os valores de y para a animação
+            }}
+            transition={{
+              repeat: Infinity,
+              duration: 8,
+              ease: "linear",
+            }}
+            style={{}}
+          />
+        </ImagemSecond>
       </Objetivo>
-                
-       
-             
-      
-    </>
+    </Principal>
   );
 }
 

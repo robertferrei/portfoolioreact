@@ -14,6 +14,8 @@ import imagem12 from "../../assets/download 12.png";
 import imagem13 from "../../assets/download 13.png";
 import { Container } from "./styles";
 import TypeIt from "typeit-react";
+import Button from "../Button";
+
 function Cardss() {
   return (
     <>
@@ -22,57 +24,88 @@ function Cardss() {
           <TypeIt
             options={{ loop: isFinite }}
             getBeforeInit={(instance) => {
-              instance.type("   PROJETO-STARBUCKS.").pause(500).go();
+              instance.type("   STARBUCKS.").pause(500).go();
 
               // Remember to return it!
               return instance;
             }}
           />
-          <img src={imagem} alt="" />
+          <img className="imagem1" src={imagem} alt=""     />
+          <a
+            href="https://starbucksatualizado.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          
+          >
+            {" "}
+            <Button />
+          </a>
         </h3>
 
         <h3>
           <TypeIt
             options={{ loop: isFinite }}
             getBeforeInit={(instance) => {
-              instance.type("   PROJETO-CONVERSOR-DE-MOEDAS.").pause(500).go();
+              instance.type("   CONVERSOR-DE-MOEDAS.").pause(500).go();
 
               // Remember to return it!
               return instance;
             }}
           />{" "}
           <img src={imagem1} alt="" />{" "}
+          <a
+            href="https://projetoconvertmoney.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            <Button />
+          </a>
         </h3>
         <h3>
           <TypeIt
             options={{ loop: isFinite }}
             getBeforeInit={(instance) => {
-              instance.type("  PROJETO-SAMSUNG.").pause(500).go();
+              instance.type("  SAMSUNG.").pause(500).go();
 
               // Remember to return it!
               return instance;
             }}
           />{" "}
           <img src={imagem2} alt="" />{" "}
+          <a
+            href="https://projetossamsung.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button />
+          </a>
         </h3>
         <h3>
           <TypeIt
             options={{ loop: isFinite }}
             getBeforeInit={(instance) => {
-              instance.type("   PROJETO-PREVISÃO-DO-TEMPO.").pause(500).go();
+              instance.type("    PREVISÃO-DO-TEMPO.").pause(500).go();
 
               // Remember to return it!
               return instance;
             }}
           />{" "}
           <img src={imagem3} alt="" />{" "}
+          <a
+            href="https://previsaotempo.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button />
+          </a>
         </h3>
         <h3>
           <TypeIt
             options={{ loop: isFinite }}
             getBeforeInit={(instance) => {
               instance
-                .type("   PROJETO-EASY-SHOOPPING-VIA-MOBILE.")
+                .type("  SHOOPPING -MOBILE.")
                 .pause(500)
                 .go();
 
@@ -81,13 +114,21 @@ function Cardss() {
             }}
           />{" "}
           <img src={imagem4} alt="" />{" "}
+          <a
+            href="https://projetoeasyshooping.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            <Button />
+          </a>
         </h3>
         <h3>
           <TypeIt
             options={{ loop: isFinite }}
             getBeforeInit={(instance) => {
               instance
-                .type("   PROJETO-WIDE-COVERAGE-LOCATION.")
+                .type("     COVERAGE-LOCATION.")
                 .pause(500)
                 .go();
 
@@ -96,25 +137,40 @@ function Cardss() {
             }}
           />{" "}
           <img src={imagem5} alt="" />{" "}
+          <a
+            href="https://projetowidecovertion.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            <Button />
+          </a>
         </h3>
         <h3>
           <TypeIt
             options={{ loop: isFinite }}
             getBeforeInit={(instance) => {
-              instance.type("   PROJETO-PORTFOLIO.").pause(500).go();
+              instance.type("  PORTFOLIO.").pause(500).go();
 
               // Remember to return it!
               return instance;
             }}
           />{" "}
           <img src={imagem6} alt="" />
+          <a
+            href="https://robertportfolio0.netlify.app/#home"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button />
+          </a>
         </h3>
         <h3>
           <TypeIt
             options={{ loop: isFinite }}
             getBeforeInit={(instance) => {
               instance
-                .type("      PROJETO-VEREFICADOR-DE-IDADE.")
+                .type("      VEREFICADOR-DE-IDADE.")
                 .pause(500)
                 .go();
 
@@ -123,25 +179,41 @@ function Cardss() {
             }}
           />{" "}
           <img src={imagem7} alt="" />{" "}
+          <a
+            href="https://verificadoridadee.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            <Button />{" "}
+          </a>
         </h3>
         <h3>
           <TypeIt
             options={{ loop: isFinite }}
             getBeforeInit={(instance) => {
-              instance.type("   PROJETO-PAGINA-LOGGIN.").pause(500).go();
+              instance.type("    PAGINA-LOGGIN.").pause(500).go();
 
               // Remember to return it!
               return instance;
             }}
           />{" "}
           <img src={imagem8} alt="" />{" "}
+          <a
+            href="https://logindarkkk.netlify.app/?name=robert&email=&passoword=eefsfsedes"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            <Button />
+          </a>
         </h3>
         <h3>
           <TypeIt
             options={{ loop: isFinite }}
             getBeforeInit={(instance) => {
               instance
-                .type("     PROJETO-PAGINA-INICIAL-DE-NOTICIAS.")
+                .type("     PAGINA-NOTICIAS.")
                 .pause(500)
                 .go();
 
@@ -150,54 +222,90 @@ function Cardss() {
             }}
           />{" "}
           <img src={imagem9} alt="" />{" "}
+          <a
+            href="https://noticiasss.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            <Button />
+          </a>
         </h3>
         <h3>
           <TypeIt
             options={{ loop: isFinite }}
             getBeforeInit={(instance) => {
-              instance.type("      PROJETO-GERADOR-DE-SENHA.").pause(500).go();
+              instance.type("      GERADOR-DE-SENHA.").pause(500).go();
 
               // Remember to return it!
               return instance;
             }}
           />{" "}
           <img src={imagem10} alt="" />{" "}
+          <a
+            href="https://geradordesenhass.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button />
+          </a>
         </h3>
         <h3>
           <TypeIt
             options={{ loop: isFinite }}
             getBeforeInit={(instance) => {
-              instance.type("    PROJETO-LISTA-DE-TAREFA.").pause(500).go();
+              instance.type("    LISTA-DE-TAREFA.").pause(500).go();
 
               // Remember to return it!
               return instance;
             }}
           />{" "}
           <img src={imagem11} alt="" />{" "}
+          <a
+            href="https://projeto-lista-de-tarefa.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button />
+          </a>
         </h3>
         <h3>
           <TypeIt
             options={{ loop: isFinite }}
             getBeforeInit={(instance) => {
-              instance.type("   PROJETO DEV-FILM.").pause(500).go();
+              instance.type("     DEV-FILM.").pause(500).go();
 
               // Remember to return it!
               return instance;
             }}
           />{" "}
           <img src={imagem12} alt="" />{" "}
+          <a
+            href="https://dev-film-8u5e.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button />
+          </a>
         </h3>
         <h3>
           <TypeIt
             options={{ loop: isFinite }}
             getBeforeInit={(instance) => {
-              instance.type("    PROJETO-INSTRAGRAM.").pause(500).go();
+              instance.type("    INSTRAGRAM.").pause(500).go();
 
               // Remember to return it!
               return instance;
             }}
           />{" "}
           <img src={imagem13} alt="" />{" "}
+          <a
+            href="https://projetoinstagramm.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button />
+          </a>
         </h3>
       </Container>
     </>

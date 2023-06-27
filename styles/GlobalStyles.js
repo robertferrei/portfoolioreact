@@ -9,10 +9,21 @@ export default createGlobalStyle`
         text-decoration:none;
         font-family: 'Orbitron', sans-serif;
         
+        @media (max-width:1000px){
+           
+           
+              
+          
+        }
         
 }
 
 body{
     background:#fff;
+    @media (max-width:1000px){
+            body{
+                width: 100%;
+            }
+        }
 }
 `

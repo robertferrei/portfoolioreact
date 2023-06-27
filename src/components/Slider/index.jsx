@@ -20,6 +20,10 @@ function SLider() {
         <SwiperSlide> </SwiperSlide>
         <SwiperSlide> </SwiperSlide>
         <SwiperSlide> </SwiperSlide>
+        <SwiperSlide> </SwiperSlide>
+        <SwiperSlide> </SwiperSlide>
+        <SwiperSlide> </SwiperSlide>
+        <SwiperSlide> </SwiperSlide>
       
         
       </Swiper>

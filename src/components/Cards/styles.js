@@ -6,6 +6,13 @@ export const Container=styled.div`
     justify-content:flex-start;
     align-items:center;
     gap:50px;
+
+    @media (max-width:900px){
+                width: 400%;
+                
+                 }
+   
+    
      
     
    
@@ -13,16 +20,32 @@ export const Container=styled.div`
         width:899px;
         box-shadow: -10px 2px 10px rgba(250,15,46,0.66);
         border-radius:10px;
+        position:relative;
+        @media (max-width:900px){
+                  width: 700px;
+                  margin-top:20% ;
+                  position:relative;
+                  padding-left:30px;
+                  height: 60vh;
+                 }
+        
+       
          
     }
     h3{
         color:   rgba(250,15,46,0.66);
         margin-top:40px ;
+        display: flex;
+        flex-direction:column;
+        @media (max-width:900px){
+          
+            font-size:30px;
+        }
     }
     button{
         color:#fff
     }
 
-
+ 
 
 `
