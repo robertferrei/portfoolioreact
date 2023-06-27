@@ -92,13 +92,13 @@ export const Sports = styled.div`
     background: #000;
     display: flex;
     justify-content:center;
-    @media (min-width:400px){
-  width: 250%;
-  height: 200vh;
- }
+
+    
+    
     @media (max-width:1000px){
    width: 250%;
  }
+ 
   
 
     img{

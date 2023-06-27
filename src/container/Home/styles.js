@@ -3,6 +3,9 @@ import styled from 'styled-components'
 export const Principal=styled.div`
     width: 100%;
     height:100vh;
+    @media (max-width:1000){
+      
+    }
  
 `
 export const Container = styled.div`
@@ -10,9 +13,6 @@ export const Container = styled.div`
   display: flex;
   justify-content:space-around;
   align-items:space-around;
-  
-  width: 100vw;
- 
   @media (max-width:1000px){
       display: block;
   }
@@ -30,6 +30,8 @@ export const Imagem = styled.div`
             border-radius:50px;
             box-shadow: 26px 20px 24px  rgba(250,15,46,0.66); 
             width: 600px;
+            margin-right:100%;
+            
             @media (max-width:900px){
               width: 400px;
               margin-left:100%;
@@ -104,6 +106,7 @@ export const Texto = styled.div`
 export const Div = styled.div`
             margin-top:40px;
             background: #000;
+            width: 100%;
             height: 6vh;
            
             
@@ -128,6 +131,7 @@ margin-top:40px;
 p{
     width: 800px;
     font-size:25px;
+  
     @media (max-width:1000px){
       width: 700px;
       font-size:30px ;
@@ -140,7 +144,7 @@ p{
 img{
             border-radius:50px;
             width: 700px;
-            margin-left:250px ;
+            margin-left:50% ;
             box-shadow: 26px 20px 24px  rgba(250,15,46,0.66); 
 
             @media (max-width:1000px){

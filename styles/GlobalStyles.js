@@ -8,7 +8,18 @@ export default createGlobalStyle`
         outline:none;
         text-decoration:none;
         font-family: 'Orbitron', sans-serif;
-        
+        ::-webkit-scrollbar{
+            width: 15px;
+             overflow:scroll;
+             
+            border-radius:50px;
+
+    }
+    ::-webkit-scrollbar-thumb{
+        background: red;
+        border-radius:50px;
+        border:2px solid #fff
+    }
         @media (max-width:1000px){
            
            
@@ -23,6 +34,7 @@ body{
     @media (max-width:1000px){
             body{
                 width: 100%;
+                
             }
         }
 }
