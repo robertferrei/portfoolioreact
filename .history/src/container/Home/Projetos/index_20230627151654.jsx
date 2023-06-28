@@ -1,4 +1,4 @@
-import SLider from "../../../components/Slider";
+import SLider from "../../../components/slider";
 import { Container } from "../styles";
 import { Main, Texto } from "./styles";
 import Imagem from "../../../assets/teclado.png";
