@@ -72,7 +72,7 @@ export const Formulario=styled.div`
  
  
  h2{
-  
+   margin-top:10px;
     color: rgba(250,15,46,0.66);
     @media (max-width:1000px){
    font-size:35px;
