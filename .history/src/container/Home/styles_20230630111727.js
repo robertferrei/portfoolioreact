@@ -145,7 +145,7 @@ p{
 img{
             border-radius:50px;
             width: 500px;
-            margin-left:100% ;
+            margin-left:50% ;
             box-shadow: 26px 20px 24px  rgba(250,15,46,0.66); 
 
             @media (max-width:1000px){
