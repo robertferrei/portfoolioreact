@@ -29,9 +29,9 @@ export const Imagem = styled.div`
            img{
             border-radius:50px;
             box-shadow: 26px 20px 24px  rgba(250,15,46,0.66); 
-            width: 500px;
-            height: 600px;
-            margin-right:100%;
+            width: 600px;
+            height: 400px;
+          ;
             
             @media (max-width:900px){
               width: 400px;
@@ -145,7 +145,7 @@ p{
 img{
             border-radius:50px;
             width: 500px;
-            margin-left:100% ;
+            margin-left:60% ;
             box-shadow: 26px 20px 24px  rgba(250,15,46,0.66); 
 
             @media (max-width:1000px){
