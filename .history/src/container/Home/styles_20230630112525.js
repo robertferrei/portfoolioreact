@@ -29,7 +29,7 @@ export const Imagem = styled.div`
            img{
             border-radius:50px;
             box-shadow: 26px 20px 24px  rgba(250,15,46,0.66); 
-            width: 300px;
+            width: 600px;
             height: 400px;
           ;
             
@@ -144,8 +144,7 @@ p{
 
 img{
             border-radius:50px;
-            width: 300px;
-            height: 300px;
+            width: 500px;
             margin-left:60% ;
             box-shadow: 26px 20px 24px  rgba(250,15,46,0.66); 
 
