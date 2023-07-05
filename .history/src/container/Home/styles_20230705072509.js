@@ -30,8 +30,7 @@ export const Imagem = styled.div`
             border-radius:50px;
             box-shadow: 26px 20px 24px  rgba(250,15,46,0.66); 
             width: 300px;
-            height: 200px;
-            margin-top:40px ;
+            height: 400px;
           ;
             
             @media (max-width:900px){
@@ -147,7 +146,7 @@ img{
             border-radius:50px;
             width: 300px;
             height: 300px;
-           margin-left:30%;
+            margin-left:100% ;
             box-shadow: 26px 20px 24px  rgba(250,15,46,0.66); 
 
             @media (max-width:1000px){
@@ -182,8 +181,7 @@ display: none;
 `
 
 export const ImagemSecond = styled.div`
-   width: 100%;
- 
+   
 `
 export const Drop=styled.div`
      @media (max-width:1000px){
