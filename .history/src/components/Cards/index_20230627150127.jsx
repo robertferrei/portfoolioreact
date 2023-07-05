@@ -93,7 +93,7 @@ function Cardss() {
           />{" "}
           <img src={imagem3} alt="" />{" "}
           <a
-            href="https://projeto-previsao-do-tempo-six.vercel.app"
+            href="https://previsaotempo.netlify.app"
             target="_blank"
             rel="noreferrer"
           >
