@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 
-export const Container=styled.div`
+export const Container = styled.div`
     display:flex;
     justify-content:flex-start;
     align-items:center;
@@ -48,4 +48,48 @@ export const Container=styled.div`
 
  
 
+`
+
+export const Descrition = styled.div`
+        width: 60%;
+        height: 90%;
+      
+        display: flex;
+        justify-content:center;
+        flex-direction:column ;
+        border-radius:30px;
+      
+ 
+        margin-top:20px;
+        text-align:center;
+
+    div{  
+        width: 50%;
+        height: 30vh;
+        display: flex;
+        
+       
+       background:red;
+       border-radius:20px;
+       margin-left:50%;
+       margin-top:20px ;
+       @media (max-width:900px){
+          
+       height: 60vh;
+      }
+    }
+    p{
+        
+        
+        text-align:center;
+        font-size:20px;
+        color:#fff;
+        margin-top:20%;
+        
+    }
+    h1{
+        margin-top:20px;
+        color: #fff;
+        margin-left:50% ;
+    }
 `
