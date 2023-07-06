@@ -65,7 +65,7 @@ export const Descrition = styled.div`
 
     div{  
         width: 50%;
-        height: 40vh;
+        height: 30vh;
         display: flex;
         
        

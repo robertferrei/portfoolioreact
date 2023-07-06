@@ -4,7 +4,7 @@ export const Buutton=styled.button`
         width: 100%;
         border-radius:40px ;
         font-size:15px;
-        width: 200px;
+        width: 50%;
        background: #000;
        margin-top:30px;
        cursor:pointer;
