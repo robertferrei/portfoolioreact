@@ -191,7 +191,7 @@ export const ImagemSecond = styled.div`
 export const Drop=styled.div`
       display: flex;
       justify-content:space-around;
-     margin-left:95% ;
+     margin-left:91% ;
      margin-top:50px ;
 
  
