@@ -23,7 +23,9 @@ function Home() {
       <Drop>
       <Dropdown />
       </Drop>
+      
       <Container>
+     
         <Texto>
           <h2>
             Óla me chamo
@@ -65,7 +67,9 @@ function Home() {
             style={{}}
           />
         </Imagem>
+      
       </Container>
+     
 
       <Div>
         <div>...</div>

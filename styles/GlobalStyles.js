@@ -8,6 +8,7 @@ export default createGlobalStyle`
         outline:none;
         text-decoration:none;
         font-family: 'Orbitron', sans-serif;
+        
         ::-webkit-scrollbar{
             width: 15px;
              overflow:scroll;

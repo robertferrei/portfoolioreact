@@ -28,7 +28,7 @@ export const Imagem=styled.div`
    width: 250%;
  }
  img{
-    width:600px;
+    width:400px;
     @media (max-width:1000px){
    width: 250px;
  }

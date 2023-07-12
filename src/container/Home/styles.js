@@ -32,6 +32,7 @@ export const Imagem = styled.div`
             width: 400px;
             height: 300px;
             margin-top:40px ;
+            margin-right:50% ;
           ;
             
             @media (max-width:900px){
@@ -188,6 +189,17 @@ export const ImagemSecond = styled.div`
  
 `
 export const Drop=styled.div`
+      display: flex;
+      justify-content:space-around;
+     margin-left:85% ;
+
+ 
+
+     @media (max-width:2300px){
+        margin-left:80%;
+      
+
+     }
      @media (max-width:1000px){
 
       display: flex;
@@ -195,4 +207,6 @@ export const Drop=styled.div`
       align-items:center;
       margin-left:190%;
      }
+
+     
 `

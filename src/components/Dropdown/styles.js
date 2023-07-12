@@ -15,6 +15,7 @@ export const Container=styled.div`
         opacity:1;
         border-radius:8px ;
         transition: 0.3s;
+         
         @media (max-width:900px){
             width: 200px;
         }
