@@ -197,7 +197,7 @@ export const Drop=styled.div`
  
 
      @media (max-width:2300px){
-        margin-left:72%;
+        margin-left:75%;
       
 
      }
