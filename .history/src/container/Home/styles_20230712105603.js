@@ -192,7 +192,7 @@ export const Drop=styled.div`
       display: flex;
       justify-content:space-around;
      margin-left:95% ;
-     margin-top:30px ;
+     margin-top:40px ;
 
  
 
