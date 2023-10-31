@@ -11,7 +11,8 @@ export default createGlobalStyle`
         
         ::-webkit-scrollbar{
             width: 15px;
-             overflow:scroll;
+            overflow:scroll;
+           
              
             border-radius:50px;
 

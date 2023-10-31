@@ -8,8 +8,12 @@ import {
   Principal,
   Texto,
 } from "./styles";
+
+//declarando minhas imagens
 import Logo from "../../assets/developer.png";
 import Logoo from "../../assets/img.png";
+//________________________________//
+
 import TypeIt from "typeit-react";
 
 import Typeit from "../../components/Typeit";
