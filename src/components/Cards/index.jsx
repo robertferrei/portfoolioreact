@@ -503,7 +503,7 @@ function Cardss() {
                 react e testa o conhecimento Tecnico sobre API, REST. ||
                 ReactJs, Styled-components, API
                 <a
-                  href="  https://github.com/robertferrei/PROJETO-LISTA-DE-TAREFA"
+                  href=" https://github.com/robertferrei/dev-film"
                   target="_blank"
                   rel="noreferrer"
                 >
