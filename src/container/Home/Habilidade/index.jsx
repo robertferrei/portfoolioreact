@@ -11,6 +11,8 @@ import {
   NodeJsImgs,
   ReactImg,
   SqlImg,
+  Pythoon,
+  Mysql,
 } from "./styles";
 import Html from "../../../assets/html.png";
 import css from "../../../assets/css.png";
@@ -23,6 +25,8 @@ import Betha from "../../../assets/betha.png";
 import SQl from "../../../assets/Sql.jpg";
 import Jasper from "../../../assets/jaspersoft.jpg";
 import TypeIt from "typeit-react";
+import python from "../../../assets/python.jpg";
+import mysql from "../../../assets/mysql.avif";
 
 function Habilidade() {
   return (
@@ -156,6 +160,35 @@ function Habilidade() {
             a tomar decisões informadas com base em dados.
           </h4>
         </JasperImg>
+
+        <Pythoon>
+          <img src={python} alt="" />
+          <h4>
+            Python é uma linguagem de programação de alto nível, interpretada e
+            versátil, criada por Guido van Rossum em 1991. Destaca-se por sua
+            sintaxe simples e legível, sendo uma ótima escolha para iniciantes.
+            Suporta múltiplos paradigmas de programação e possui um vasto
+            ecossistema de bibliotecas e frameworks, facilitando o
+            desenvolvimento em diversas áreas, como web development, machine
+            learning e ciência de dados. Sua comunidade ativa e acolhedora
+            contribui para sua popularidade em diversos setores
+          </h4>
+        </Pythoon>
+
+        <Mysql>
+          <img src={mysql} alt="" />
+          <h4>
+            O MySQL é um RDBMS amplamente utilizado em todo o mundo,
+            desenvolvido pela MySQL AB e posteriormente adquirido pela Oracle
+            Corporation. É de código aberto e oferece desempenho, confiabilidade
+            e facilidade de uso. Suas características incluem suporte a SQL,
+            multiplataforma, escalabilidade, transações ACID, segurança
+            avançada, replicação, clustering, comunidade ativa, suporte
+            profissional e integração com outras tecnologias. É uma escolha
+            popular para aplicativos web devido à sua confiabilidade e
+            desempenho, sendo acessível para empresas de todos os tamanhos.
+          </h4>
+        </Mysql>
       </CaixaImagens>
     </Container>
     /*

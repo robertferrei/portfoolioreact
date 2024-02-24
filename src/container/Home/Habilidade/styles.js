@@ -10,20 +10,19 @@ export const Container= styled.div`
   
 
     @media (max-width:1000px){
-   width: 250%;
-  height: 250vh;
+    width: 220%;
+    height: 200%;
   img{
     width: 200px;
     
   }
     
-   background: #000;
  }
     h1{
         color:#fff;
         
         @media (max-width:1000px){
-        color:#fff;
+        color:black;
         
  }
     }
@@ -37,8 +36,11 @@ export const CaixaImagens = styled.div `
         display: flex;
         flex-wrap: wrap;
         @media (max-width:1000px){
+         
         width: 100%;
-        background: ;
+        height: 100%;
+        margin-left: 5%;
+        padding-top: 20px;
         }
 
 
@@ -78,7 +80,7 @@ img{
        
        @media (max-width:1000px){
     font-size:25px;
-    height: 100%;
+    height: 90%;
 
     }
 }
@@ -121,7 +123,7 @@ img{
   
        @media (max-width:1000px){
     font-size:25px;
-    height: 100%;
+    height: 90%;
 
 
 
@@ -138,7 +140,7 @@ width: 380px;
     margin-left:1%;
     margin-top:1% ;
     @media (max-width:1000px){
-   margin-top:5% ;
+   margin-top:30% ;
     }
   
 img{    
@@ -163,7 +165,8 @@ img{
 
        @media (max-width:1000px){
             font-size:25px;
-            height: 100%;
+            width: 100%;
+            height: 90%;
 
 
 
@@ -182,7 +185,7 @@ width: 380px;
     margin-left:1%;
     margin-top:1% ;
     @media (max-width:1000px){
-   margin-top:5% ;
+   margin-top:30% ;
     }
   
 img{    
@@ -207,7 +210,7 @@ img{
 
        @media (max-width:1000px){
     font-size:25px;
-    height: 100%;
+    height: 90%;
 
     }
 }
@@ -224,7 +227,7 @@ width: 380px;
     margin-top:2%;
 
     @media (max-width:1000px){
-   margin-top:5% ;
+   margin-top:30% ;
     }
   
 img{    
@@ -250,7 +253,7 @@ img{
          
        @media (max-width:1000px){
     font-size:25px;
-    height: 100%;
+    height: 90%;
 
     }
 }
@@ -266,7 +269,7 @@ width: 380px;
     margin-top:2%;
 
     @media (max-width:1000px){
-   margin-top:5% ;
+   margin-top:30% ;
     }
   
 img{    
@@ -292,7 +295,7 @@ img{
          
        @media (max-width:1000px){
     font-size:25px;
-    height: 100%;
+    height: 90%;
        }
     }
 
@@ -307,7 +310,7 @@ width: 380px;
     margin-top:2%;
 
     @media (max-width:1000px){
-   margin-top:5% ;
+   margin-top:30% ;
     }
     
      
@@ -352,7 +355,7 @@ width: 380px;
     margin-top:2%;
 
     @media (max-width:1000px){
-   margin-top:5% ;
+   margin-top:30% ;
     }
     
      
@@ -394,7 +397,7 @@ width: 380px;
     margin-top:2%;
 
     @media (max-width:1000px){
-   margin-top:5% ;
+   margin-top:30% ;
     }
     
      
@@ -419,6 +422,94 @@ img{
        border-radius:8px;
        width: 100%;
        height: 60%;
+       cursor:pointer;
+
+       @media (max-width:1000px){
+    font-size:25px;
+    height: 90%;
+    }
+    }
+
+`
+export const  Pythoon = styled.div`
+width: 380px;
+    border-radius: 16px;
+    background: #000;
+    margin-left:1%;
+    margin-top:2%;
+
+    @media (max-width:1000px){
+   margin-top:30% ;
+    }
+    
+     
+     
+  
+img{    
+        margin-left:25% ;
+        margin-top:6%;
+        opacity: 1;
+        width: 50%;
+        height: auto;
+        transition: 0.5s;
+        border-radius:16px ;
+         
+    }
+      
+    h4{
+       
+       background: red;
+       padding: 12px 24px;
+       border: none;
+       border-radius:8px;
+       width: 100%;
+       height: 60%;
+       cursor:pointer;
+
+       @media (max-width:1000px){
+    font-size:25px;
+    height: 90%;
+    }
+    }
+
+
+`
+
+
+
+export const  Mysql = styled.div`
+width: 380px;
+    border-radius: 16px;
+    background: #000;
+    margin-left:1%;
+    margin-top:2%;
+
+    @media (max-width:1000px){
+   margin-top:30% ;
+    }
+    
+     
+     
+  
+img{    
+        margin-left:15% ;
+        margin-top:3%;
+        opacity: 1;
+        width: 80%;
+        height: auto;
+        transition: 0.5s;
+        border-radius:16px ;
+         
+    }
+      
+    h4{
+       
+       background: red;
+       padding: 12px 24px;
+       border: none;
+       border-radius:8px;
+       width: 100%;
+       height: 62%;
        cursor:pointer;
 
        @media (max-width:1000px){
