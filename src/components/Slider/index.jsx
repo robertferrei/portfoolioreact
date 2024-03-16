@@ -15,6 +15,8 @@ import imagem10 from "../../assets/download 10.png";
 import imagem11 from "../../assets/download 11.png";
 import imagem12 from "../../assets/download 12.png";
 import imagem13 from "../../assets/download 13.png";
+import imagem14 from "../../assets/pysimpleguy.jpg"
+import imagem15 from "../../assets/CONSULTAPYMPLE.png"
 import TypeIt from "typeit-react";
 import Button from "../Button";
 import Repository from "../buttonRpositorio";
@@ -615,6 +617,94 @@ function SLider() {
               </div>
             </Descrition>
           </SwiperSlide>
+
+          <SwiperSlide>
+            <h3>
+            <TypeIt
+              options={{ loop: isFinite }}
+              getBeforeInit={(instance) => {
+                instance.type(" TODOLIST PYTHON.").pause(500).go();
+
+                // Remember to return it!
+                return instance;
+              }}
+            />{" "}
+
+              <a
+                href="https://projetoinstagramm.netlify.app"
+                target="_blank"
+                rel="noreferrer"
+                
+              >
+                {" "}
+               
+              </a>
+            </h3>
+            <img className="imagem14" src={imagem14} alt="" />
+            <Descrition>
+              <h1>Descrição</h1>
+              <div>
+                <p>
+              Nesse projeto foi feito umma TOdolist com o frameork PysimpleGui,
+              esse projeto foi feito para melhorar as capacidades técnicas em python
+                </p>
+                <a
+                //href="https://github.com/robertferrei/PROJETO-TODOLIST"
+                target="_blank"
+                rel="noreferrer"
+                >
+                  <Repository></Repository>
+                </a>
+              </div>
+            </Descrition>
+          </SwiperSlide>
+
+
+          <SwiperSlide>
+            <h3>
+            <TypeIt
+              options={{ loop: isFinite }}
+              getBeforeInit={(instance) => {
+                instance.type(" CONSULTA CPF.").pause(500).go();
+
+                // Remember to return it!
+                return instance;
+              }}
+            />{" "}
+
+              <a
+                //href="https://projetoinstagramm.netlify.app"
+                target="_blank"
+                rel="noreferrer"
+                
+              >
+                {" "}
+               
+              </a>
+            </h3>
+            <img className="imagem15" src={imagem15} alt="" />
+            <Descrition>
+              <h1>Descrição</h1>
+              <div>
+                <p>
+                Esse projeto foi feito com objetivo de aprimorar os conhecimentos técnicos
+                em python. Com o frameork pysimpleGui foi feito uma validação de cpf, 
+                e uma geração de cpf aleatório de acordo com o algoritmo 
+                 </p>
+                <a
+                href="https://github.com/robertferrei/PROJETO-GERADOR-DE-CPF-E-CONSULTA-DE-CPF"
+                target="_blank"
+                rel="noreferrer"
+                >
+                  <Repository></Repository>
+                </a>
+              </div>
+            </Descrition>
+          </SwiperSlide>
+
+
+         
+
 
 
          

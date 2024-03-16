@@ -24,11 +24,42 @@ export const Container=styled.div`
        
          
     }
+.imagem14{
+width: 25%;
+margin-left: 38%;
+
+@media (max-width:900px){
+                  width: 50%;
+                  margin-top:25% ;
+                  margin-left:25%;
+                  position:relative;
+                 
+                 
+                 }
+        
+
+}
+.imagem15{
+    width: 25%;
+    margin-left: 38%;
+
+    @media (max-width:900px){
+                  width: 50%;
+                  margin-top:25% ;
+                  margin-left:25%;
+                  position:relative;
+                 
+                 
+                 }
+        
+    
+
+}
  @media (max-width:900px){
                     margin-top:20px; 
-                  width: 250%;
+                  width:250%;
                    
-                  overflow: hidden;
+                  overflow:hidden;
                 
  }
  h3{
