@@ -573,9 +573,7 @@ function SLider() {
               </div>
             </Descrition>
           </SwiperSlide>
-
-
-
+          
           <SwiperSlide>
             <h3>
             <TypeIt

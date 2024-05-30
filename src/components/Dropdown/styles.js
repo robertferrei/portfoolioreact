@@ -4,8 +4,6 @@ export const Container=styled.div`
  position: relative;
             display: inline-block;
        
-            
-
       div{
         position: absolute;
         background:#fff;
@@ -19,22 +17,17 @@ export const Container=styled.div`
         @media (max-width:900px){
             width: 200px;
         }
-
        
         a{
             @media (max-width:900px){
                 font-size:25px;
             }
         }
-       
-        
-        
-
+               
         &:hover{
             opacity: 2;
             z-index:1;
         }
-
         li{
             display: block;
             color:#000;

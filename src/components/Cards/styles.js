@@ -11,11 +11,6 @@ export const Container = styled.div`
                 width: 400%;
                 
                  }
-   
-    
-     
-    
-   
     img{
         width:899px;
         box-shadow: -10px 2px 10px rgba(250,15,46,0.66);
@@ -28,9 +23,7 @@ export const Container = styled.div`
                   padding-left:30px;
                   height: 60vh;
                  }
-        
-       
-         
+
     }
     h3{
         color:   rgba(250,15,46,0.66);

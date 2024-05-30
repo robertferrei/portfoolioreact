@@ -1,47 +1,37 @@
 import styled from 'styled-components'
 
-
 export const Container=styled.div`
  width: 100%
  
  margin-top:2% ;
  
  img{
-        margin-left:25% ;
-        width:50%;
+        margin-left:30% ;
+        width:40%;
         display: flex;
-      
-      
+        
     ;
         @media (max-width:900px){
                   width: 90%;
                   margin-top:20% ;
                   position:relative;
-                margin-left:9% ;
-                 
-                 }
-        
-       
-         
+                margin-left:9% ;                 
+                 }         
     }
 .imagem14{
-width: 25%;
-margin-left: 38%;
+width: 20%;
+margin-left: 40%;
 
 @media (max-width:900px){
                   width: 50%;
                   margin-top:25% ;
                   margin-left:25%;
-                  position:relative;
-                 
-                 
+                  position:relative;                             
                  }
-        
-
 }
 .imagem15{
-    width: 25%;
-    margin-left: 38%;
+    width: 20%;
+    margin-left: 40%;
 
     @media (max-width:900px){
                   width: 50%;
@@ -52,15 +42,12 @@ margin-left: 38%;
                  
                  }
         
-    
-
 }
  @media (max-width:900px){
                     margin-top:20px; 
                   width:250%;
                    
-                  overflow:hidden;
-                
+                  overflow:hidden;                
  }
  h3{
         color:   rgba(250,15,46,0.66);
@@ -85,14 +72,10 @@ background:#000;
     
 @media (max-width:900px){
     
-    
- 
-    
+        
 }
 
  }
-
- 
 
 `
 export const Descrition = styled.div`

@@ -23,14 +23,10 @@ export default createGlobalStyle`
         border:2px solid #fff
     }
         @media (max-width:1000px){
-           
-           
-              
-          
+                     
         }
         
 }
-
 body{
     background:#fff;
     @media (max-width:1000px){

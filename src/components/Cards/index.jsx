@@ -26,7 +26,7 @@ function Cardss() {
             <TypeIt
               options={{ loop: isFinite }}
               getBeforeInit={(instance) => {
-                instance.type("   STARBUCKS.").pause(500).go();
+                instance.type(" STARBUCKS.").pause(500).go();
 
                 // Remember to return it!
                 return instance;

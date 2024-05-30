@@ -6,14 +6,8 @@ import Imagem2 from "../../../assets/img2.png";
 import { useState, useEffect } from "react";
 import TypeIt from "typeit-react";
  
- 
- 
- 
-
 function Projetos() {
   const [repositories, setRepositories] = useState([]);
-
-   
 
   return (
     <>
@@ -55,10 +49,7 @@ function Projetos() {
 
           <h1>...</h1>
         </Main>
-        
-         
-       
-     
+                    
     </>
   );
 }

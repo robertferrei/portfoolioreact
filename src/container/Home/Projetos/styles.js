@@ -1,10 +1,6 @@
 import styled from 'styled-components'
 
 export const Container=styled.div`
-     
-     
-     
-
  `
 export const Texto =styled.div`
 
@@ -20,7 +16,7 @@ width: 100%;
  
             img{
                 margin-top:20px;
-                width:500px;
+                width:400px;
                 box-shadow: 26px 20px 24px  rgba(250,15,46,0.66);
                 border-radius:90px;
                 @media (max-width:900px){
@@ -38,7 +34,7 @@ width: 100%;
             }
 
             .imagem-secundaria{
-                 width: 500px;
+                 width: 400px;
                  height:500px;
                  margin-top:25px;
                  box-shadow: -26px 20px 24px  rgba(250,15,46,0.66);
@@ -58,11 +54,8 @@ width: 100%;
                  font-size:30px;
                  }
               }
-            }
-            
-            
+            }       
 `
-
 export const Main =styled.div`
   display: none;
 @media (max-width:900px){
