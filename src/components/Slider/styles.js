@@ -41,6 +41,20 @@ margin-left: 40%;
                  
                  
                  }
+}
+.imagem16{
+   
+    width: 60%;
+    margin-left: 20%;
+
+    @media (max-width:900px){
+                  width: 90%;
+                  margin-top:25% ;
+                  margin-left:5%;
+                  position:relative;
+                 
+                 
+                 }
         
 }
  @media (max-width:900px){

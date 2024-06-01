@@ -15,8 +15,9 @@ import imagem10 from "../../assets/download 10.png";
 import imagem11 from "../../assets/download 11.png";
 import imagem12 from "../../assets/download 12.png";
 import imagem13 from "../../assets/download 13.png";
-import imagem14 from "../../assets/pysimpleguy.jpg"
-import imagem15 from "../../assets/CONSULTAPYMPLE.png"
+import imagem14 from "../../assets/pysimpleguy.jpg";
+import imagem15 from "../../assets/CONSULTAPYMPLE.png";
+import imagem16 from "../../assets/crud.png";
 import TypeIt from "typeit-react";
 import Button from "../Button";
 import Repository from "../buttonRpositorio";
@@ -686,7 +687,7 @@ function SLider() {
               <div>
                 <p>
                 Esse projeto foi feito com objetivo de aprimorar os conhecimentos técnicos
-                em python. Com o frameork pysimpleGui foi feito uma validação de cpf, 
+                em python. Com o framework pysimpleGui foi feito uma validação de cpf, 
                 e uma geração de cpf aleatório de acordo com o algoritmo 
                  </p>
                 <a
@@ -699,6 +700,51 @@ function SLider() {
               </div>
             </Descrition>
           </SwiperSlide>
+
+
+          
+          <SwiperSlide>
+            <h3>
+            <TypeIt
+              options={{ loop: isFinite }}
+              getBeforeInit={(instance) => {
+                instance.type(" CONSULTA CPF.").pause(500).go();
+
+                // Remember to return it!
+                return instance;
+              }}
+            />{" "}
+
+              <a
+                //href="https://projetoinstagramm.netlify.app"
+                target="_blank"
+                rel="noreferrer"
+                
+              >
+                {" "}
+               
+              </a>
+            </h3>
+                        <img className="imagem16" src={imagem16} alt="" />
+            <Descrition>
+              <h1>Descrição</h1>
+              <div>
+                <p>
+                Esse projeto foi feito com objetivo de aprimorar os conhecimentos técnicos
+                no framework LARAVEL. primeira vez Criando uma API com laravel                
+                  </p>
+                <a
+                href="https://github.com/robertferrei/API-DE-LIVROS-LARAVEL"
+                target="_blank"
+                rel="noreferrer"
+                >
+                  <Repository></Repository>
+                </a>
+              </div>
+            </Descrition>
+                      </SwiperSlide>
+
+          
 
 
          
@@ -719,3 +765,23 @@ function SLider() {
 }
 
 export default SLider;
+
+
+
+// <img className="imagem16" src={imagem16} alt="" />
+// <Descrition>
+//   <h1>Descrição</h1>
+//   <div>
+//     <p>
+//     Esse projeto foi feito com objetivo de aprimorar os conhecimentos técnicos
+//     no framework LARAVEL. primeira vez Criando uma API com laravel                
+//      </p>
+//     <a
+//     href="https://github.com/robertferrei/API-DE-LIVROS-LARAVEL"
+//     target="_blank"
+//     rel="noreferrer"
+//     >
+//       <Repository></Repository>
+//     </a>
+//   </div>
+// </Descrition>
